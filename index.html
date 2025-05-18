@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./dist/css/output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="dist/css/common.css">
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
@@ -86,35 +87,42 @@
           >
             <li>
               <a
-                href="#"
+                href="/"
                 class="block py-2 px-3 text-white rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-yellow-600 md:p-0"
                 >Home</a
               >
             </li>
             <li>
               <a
-                href="#"
+                href="/#about"
                 class="block py-2 px-3 text-white rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-yellow-600 md:p-0"
                 >About</a
               >
             </li>
             <li>
               <a
-                href="#"
+                href="/#committee"
                 class="block py-2 px-3 text-white rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-yellow-600 md:p-0"
-                >Services</a
+                >Committee</a
               >
             </li>
             <li>
               <a
-                href="#"
+                href="/information.html"
                 class="block py-2 px-3 text-white rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-yellow-600 md:p-0"
-                >Pricing</a
+                >Information</a
               >
             </li>
             <li>
               <a
-                href="#"
+                href="/tracks.html"
+                class="block py-2 px-3 text-white rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-yellow-600 md:p-0"
+                >Tracks</a
+              >
+            </li>
+            <li>
+              <a
+                href="/contact.html"
                 class="block py-2 px-3 text-white rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-yellow-600 md:p-0"
                 >Contact</a
               >
@@ -125,6 +133,7 @@
     </nav>
 
     <main class="bg-gray-100">
+      <!-- INTRO SECTION -->
       <section
         style="
           background: url('dist/assets/QU_building.jpg');
@@ -159,6 +168,7 @@
         </div>
       </section>
 
+      <!-- INFO SECTION -->
       <section class="bg-[#520243] text-white py-10">
         <div class="max-w-screen-xl mx-auto text-center space-y-5">
           <p class="text-lg">
@@ -178,7 +188,8 @@
         </div>
       </section>
 
-      <section class="py-16">
+      <!-- ABOUT SECTION -->
+      <section class="py-16" id="about">
         <div class="max-w-screen-xl mx-auto px-6 lg:px-8">
           <div class="text-center mb-12">
             <h2 class="text-4xl font-bold text-[#520243]">About Us</h2>
@@ -224,6 +235,7 @@
         </div>
       </section>
 
+      <!-- OBJECTIVE SECTION -->
       <section class="py-16">
         <div class="max-w-screen-xl mx-auto px-6 lg:px-8">
           <div class="text-center mb-12">
@@ -259,15 +271,17 @@
             </p>
           </div>
           <div class="text-center mt-8">
-            <button
+            <a href="/tracks.html"><button
               class="bg-[#520243] text-white font-semibold py-2 px-6 rounded-full transition duration-300 hover:bg-[#a5084f]"
             >
               View All Tracks
             </button>
+          </a>
           </div>
         </div>
       </section>
 
+      <!-- CONFERENCE HIGHLIGHTS SECTION -->
       <section class="py-16">
         <div class="max-w-screen-xl mx-auto px-6 lg:px-8">
           <div class="text-center mb-12">
@@ -330,7 +344,8 @@
         </div>
       </section>
 
-      <section class="py-16 bg-gray-50">
+      <!-- CONFERENCE COMMITTEE SECTION -->
+      <section class="py-16 bg-gray-50" id="committee">
         <div class="max-w-screen-xl mx-auto px-6 lg:px-8">
           <div class="text-center mb-16">
         <h2 class="text-4xl font-bold text-[#520243]">
@@ -1128,6 +1143,7 @@
         </div>
       </section>
 
+      <!-- SPONSORS SECTION -->
       <section class="py-16">
         <div class="max-w-screen-xl mx-auto px-6 lg:px-8">
           <div class="text-center mb-12">
@@ -1342,12 +1358,12 @@
         <div>
           <h4 class="text-lg font-semibold mb-3">Quick Links</h4>
           <ul class="space-y-2 text-sm">
-            <li><a href="#" class="hover:text-[#f6a20a] transition">Home</a></li>
-            <li><a href="#" class="hover:text-[#f6a20a] transition">About</a></li>
-            <li><a href="#" class="hover:text-[#f6a20a] transition">Tracks</a></li>
-            <li><a href="#" class="hover:text-[#f6a20a] transition">Important Dates</a></li>
-            <li><a href="#" class="hover:text-[#f6a20a] transition">Committee</a></li>
-            <li><a href="#" class="hover:text-[#f6a20a] transition">Contact</a></li>
+            <li><a href="/" class="hover:text-[#f6a20a] transition">Home</a></li>
+            <li><a href="/#about" class="hover:text-[#f6a20a] transition">About</a></li>
+            <li><a href="/tracks.html" class="hover:text-[#f6a20a] transition">Tracks</a></li>
+            <li><a href="/information.html#dates" class="hover:text-[#f6a20a] transition">Important Dates</a></li>
+            <li><a href="/#committee" class="hover:text-[#f6a20a] transition">Committee</a></li>
+            <li><a href="/contact.html" class="hover:text-[#f6a20a] transition">Contact</a></li>
           </ul>
         </div>
         <!-- Social Media -->
